@@ -1,0 +1,13 @@
+
+  {
+    "name": "inspirenode-fireside",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd inspireNode-fireside.client && npm i",
+      "setup:server": "cd inspireNode-fireside && npm i",
+      "start": "node inspireNode-fireside/index.js"
+    }
+  }
+  
